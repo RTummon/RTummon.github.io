@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-IE" style="">
 <head>
-<title>My First Personal Website</title>
+<title>Tummonmas</title>
 <link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>
-        Rory Tummon
-    </h1>
 
-    <h2 title="Learn about who I am">
-        About Me
-    </h2>
+    <h1>Tummon's Christmas Wishlists</h1>
 
-    <p>I am 22 years of age. I am a fourth year astrophysics student in University of Galway. I plan to graduate in 2023. I am highly interested in software development and would like to make a career in this area.</p>
-    <p>I have strong technical abilities and I am aiming to improve my developer skills in order to create great things. <b>This is my first website I am developing by myself.</b></p>
+    <h2>Add your name and your wishlist!</h2>
 
-    <p>Here is description of my studies from my brother's website</p>
-    <blockquote cite="https://tummon.dev/rory">
-        Student, Galway, Ireland, BSc Astrophysics.
-        Started BSc
-        Started an Undergrad in Physics in National University of Ireland Galway (NUIG).
+    <p>Add your name and submit each item you would like on your list</p><br>
 
-        Started CS course
-        Started a self taught course on computer science in tandem with undergrad.
-    </blockquote>
+    <form>
+        <!-- <input type="radio" id="damo" name="name" value="Damien">
+        <label for="damo">Damien</label><br>
+        <input type="radio" id="dee" name="name" value="Deirdre">
+        <label for="de">Deirdre</label><br>
+        <input type="radio" id="cat" name="name" value="Cathal">
+        <label for="cat">Cathal</label><br>
+        <input type="radio" id="ev" name="name" value="Evan">
+        <label for="ev">Evan</label><br>
+        <input type="radio" id="aar" name="name" value="Aaron">
+        <label for="aar">Aaron</label><br>
+        <input type="radio" id="rory" name="name" value="Rory">
+        <label for="rory">Rory</label><br> -->
+        <label for="name">Who dis?</label>
+        
+        <select name="name" id="name">
+            <option value="Deirdre">Deirdre</option>
+            <option value="Damien">Damien</option>
+            <option value="Cathal">Cathal</option>
+            <option value="Evan">Evan</option>
+            <option value="Aaron">Aaron</option>
+            <option value="Rory">Rory</option>
+          </select>
 
+        <label for="item">Item:</label><br>
+        <input type="text" id="item" name="item"><br>
+        <label for="link">Link:</label><br>
+        <input type="text" id="link" name="link"><br>
+    </form>
 </body>
 </html>
